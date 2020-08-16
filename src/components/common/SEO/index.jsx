@@ -7,10 +7,7 @@ import {
   social,
   defaultTitle,
   socialLinks,
-  address,
-  contact,
   legalName,
-  foundingDate,
   logo,
 } from 'data/config';
 
@@ -21,30 +18,9 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
 		"legalName": "${legalName}",
 		"url": "${url}",
 		"logo": "${logo}",
-		"foundingDate": "${foundingDate}",
-		"founders": [{
-			"@type": "Person",
-			"name": "${legalName}"
-		}],
-		"contactPoint": [{
-			"@type": "ContactPoint",
-			"email": "${contact.email}",
-			"telephone": "${contact.phone}",
-			"contactType": "customer service"
-		}],
-		"address": {
-			"@type": "PostalAddress",
-			"addressLocality": "${address.city}",
-			"addressRegion": "${address.region}",
-			"addressCountry": "${address.country}",
-			"postalCode": "${address.zipCode}"
-		},
 		"sameAs": [
 			"${socialLinks.twitter}",
-			"${socialLinks.google}",
-			"${socialLinks.youtube}",
 			"${socialLinks.linkedin}",
-			"${socialLinks.instagram}",
 			"${socialLinks.github}"
 		]
   	}`;
@@ -59,7 +35,6 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={Thumbnail} />
-      <meta property="fb:app_id" content={social.facebook} />
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:creator" content={socialLinks.twitter} />
