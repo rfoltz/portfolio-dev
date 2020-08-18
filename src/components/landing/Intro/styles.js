@@ -42,9 +42,9 @@ export const Details = styled.div`
     }
   }
 
-  h4 {
+  p {
     margin-bottom: 2.5rem;
-    font-size: 32pt;
+    font-size: 14pt;
     font-weight: normal;
     color: ${({ theme }) => (theme === 'light' ? '#707070' : '#e6e6e6')};
 
@@ -53,8 +53,12 @@ export const Details = styled.div`
     }
 
     @media (max-width: 680px) {
-      font-size: 26pt;
+      font-size: 14pt;
     }
+  }
+
+  a {
+    margin-right: 1rem;
   }
 `;
 

@@ -11,17 +11,22 @@ export const Intro = () => {
 
   return (
     <Wrapper>
-      <Header />
       <IntroWrapper as={Container}>
         <Details theme={theme}>
-          <h1>Hi There!</h1>
-          <h4>I’m John and I’m a JAMStack engineer!</h4>
+          <h1>I’m Robert and I’m a Software Engineer!</h1>
+          <p>
+            Hey there, I'm currently a Lead Software Engineer at Foodmaestro here in Toronto, Canada. I previously worked in the banking industry At Scotiabank developing an internal reporting platform built in C#, CSS, HTML5, JQuery and plain old Javascript.
+            More recently I have been working on client facing applications and API's here at Foodmaestro with an emphasis integrating with Retailers to help them inform their users about healthly foods.
+          </p>
           <Button as={AnchorLink} href="#contact">
-            Hire me
+            Resume
+          </Button>
+          <Button as={AnchorLink} href="#contact">
+            Get In Touch
           </Button>
         </Details>
         <Thumbnail>
-          <img src={dev} alt="I’m John and I’m a JAMStack engineer!" />
+          <img src={dev} alt="I’m Robert and I’m a Software Engineer!" />
         </Thumbnail>
       </IntroWrapper>
     </Wrapper>

@@ -54,3 +54,11 @@ export const Details = styled.div`
     margin-bottom: 2rem;
   }
 `;
+
+export const Logo = styled.div`
+  align-items: center;
+  img {
+    height: 64px;
+    width: 64px;
+  }
+`;

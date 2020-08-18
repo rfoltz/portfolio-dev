@@ -8,7 +8,7 @@ import { Wrapper, Grid, Item, Content, Stats } from './styles';
 
 export const Projects = () => {
   const { theme } = useContext(ThemeContext);
-  /*const {
+  const {
     github: {
       viewer: {
         repositories: { edges },
@@ -37,19 +37,12 @@ export const Projects = () => {
         }
       }
     `
-  );*/
+  );
   return (
     <Wrapper as={Container} id="projects">
       <h2>Projects</h2>
       <Grid>
-        
-      </Grid>
-    </Wrapper>
-  );
-};
-
-/*
-{edges.map(({ node }) => (
+      {edges.map(({ node }) => (
           <Item key={node.id} as="a" href={node.url} target="_blank" rel="noopener noreferrer" theme={theme}>
             <Card theme={theme}>
               <Content>
@@ -69,5 +62,12 @@ export const Projects = () => {
             </Card>
           </Item>
         ))}
+      </Grid>
+    </Wrapper>
+  );
+};
+
+/*
+
 
 */
