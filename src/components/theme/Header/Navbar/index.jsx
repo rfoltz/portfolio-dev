@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <Wrapper as={Container}>
       <Brand as={Link} to="/" theme={theme}>
-        <Logo>
-          <img src={logo} alt="I’m John and I’m a Backend & Devops engineer!" />
+        <Logo theme={theme}>
+          <img src={logo} alt="I’m John and I’m a Backend & Devops engineer!" theme={theme} />
         </Logo>
       </Brand>
       <NavbarLinks desktop />

@@ -21,6 +21,7 @@ export const Logo = styled.div`
     height: 64px;
     width: 64px;
     margin-bottom: 0;
+    filter: invert(${({ theme }) => (theme === 'light' ? '0' : '1')});
 
     @media (max-width: 960px) {
       height: 32px;
