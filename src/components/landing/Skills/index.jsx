@@ -25,7 +25,6 @@ export const Skills = () => {
             <li>Python</li>
             <li>Microsoft Azure</li>
           </ul>
-          <Link to='/tools'>See the tech tools I use?</Link>
         </Details>
       </SkillsWrapper>
     </Wrapper>
