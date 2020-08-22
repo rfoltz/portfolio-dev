@@ -21,10 +21,14 @@ export const Details = styled.div`
     order: 1;
   }
 
+  a {
+    color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
+  }
+
   h1 {
     margin-bottom: 2rem;
     font-size: 26pt;
-    color: #212121;
+    color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
   }
 
   p {
@@ -32,7 +36,7 @@ export const Details = styled.div`
     font-size: 20pt;
     font-weight: normal;
     line-height: 1.3;
-    color: #707070;
+    color: ${({ theme }) => (theme === 'light' ? '#707070' : '#c7c7c7')};
   }
 `;
 
@@ -46,5 +50,25 @@ export const Thumbnail = styled.div`
 
   img {
     width: 100%;
+  }
+`;
+
+export const Links = styled.div`
+  display: flex;
+  align-items: center;
+
+  a {
+    margin: 0 0.5rem;
+    
+
+
+    img {
+      margin: 0.75rem;
+    }
+
+    &:first-child,
+    &:last-child {
+      margin: 0;
+    }
   }
 `;

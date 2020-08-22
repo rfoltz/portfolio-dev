@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'components/common';
 import { Wrapper, Flex, Links, Details, Logo } from './styles';
 import logo from 'assets/illustrations/logo.svg';
-import social from './social.json';
+import social from '../../../data/social.json';
 
 export const Footer = () => (
   <Wrapper>
