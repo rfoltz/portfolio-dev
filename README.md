@@ -1,4 +1,6 @@
-# Portfolio for developers
+# Robert's Portfolio Website
+
+This is my website that I wanted to build using Gatsby and I used the start below from [Smakosh]() as my base. I've modified it a little but to include my content and will be modifying it further to include new illustrations and more content.
 
 ## Theme
 
@@ -13,8 +15,6 @@
 - Nice project structure
 - Amazing illustrations by [Undraw.co](https://undraw.co)
 - Tablet & mobile friendly
-- Continuous deployment with [Vercel](https://vercel.com/?utm_source=smakosh)
-- Or with Netlify, check [Netlify branch](https://github.com/smakosh/gatsby-portfolio-dev/tree/netlify)
 - A contact form protected by Google Recaptcha
 - Can be deployed with one click
 - Functional components with ~~Recompose~~ React Hooks! ~~ready to migrate to React hooks!~~
@@ -89,19 +89,3 @@ yarn reset
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Contributors
-
-- [Ajay NS](https://github.com/ajayns) https://github.com/smakosh/gatsby-portfolio-dev/pull/3
-- [Ryan Lee](https://github.com/drdgvhbh) https://github.com/smakosh/gatsby-portfolio-dev/pull/6
-- [David](https://github.com/davidavz) https://github.com/smakosh/gatsby-portfolio-dev/pull/8
-- [Léu Almeida](https://github.com/LeuAlmeida) https://github.com/smakosh/gatsby-portfolio-dev/pull/21
-- [Kudakwashe Mupeni](https://github.com/2wce) https://github.com/smakosh/gatsby-portfolio-dev/pull/20
-- [sasannnn](https://github.com/sasannnn) https://github.com/smakosh/gatsby-portfolio-dev/pull/22
-- [Michael Seifarth](https://github.com/Kageetai) https://github.com/smakosh/gatsby-portfolio-dev/pull/27
-- [Hugo](https://github.com/Kronicom) https://github.com/smakosh/gatsby-portfolio-dev/pull/34 https://github.com/smakosh/gatsby-portfolio-dev/pull/35
-- [Smakosh](https://smakosh.com)
-
-## Support
-
-If you love this Gatsby template and want to support me, you can do so through my GitHub profile.
