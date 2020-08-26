@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { Container } from 'components/common';
 import contact from 'assets/illustrations/contact.svg';
 import { Wrapper, Details, Thumbnail, Links } from './styles';
-import ContactForm from './ContactForm';
 import { ThemeContext } from '../../../providers/ThemeProvider';
 import social from '../../../data/social.json';
 

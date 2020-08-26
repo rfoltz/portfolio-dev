@@ -1,6 +1,6 @@
 # Robert's Portfolio Website
 
-This is my website that I wanted to build using Gatsby and I used the start below from [Smakosh]() as my base. I've modified it a little but to include my content and will be modifying it further to include new illustrations and more content.
+This is my website that I wanted to build using Gatsby and I used the start below from [Smakosh](https://github.com/smakosh/) as my base. I've modified it a little but to include my content and will be modifying it further to include new illustrations and more content.
 
 ## Theme
 
