@@ -1,7 +1,16 @@
 import React from 'react';
 import { Layout, SEO } from 'components/common';
 import page_not_found from 'assets/illustrations/404.svg'
-import { Wrapper } from './styles';
+import styled from 'styled-components';
+ 
+
+const Wrapper = styled.div`
+    padding: 4rem 0.75rem;
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+`;
+
 
 export default () => (
   <Layout>
