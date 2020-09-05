@@ -17,7 +17,7 @@ export const Intro = () => {
             Hey there, I'm currently a Engineering Team Lead at Foodmaestro here in Toronto, Canada. I previously worked in the banking industry At Scotiabank working with Big Data and developing an internal reporting platform built in C#, CSS, HTML5, JQuery and plain old Javascript.
             More recently I have been working on client facing applications, API's, and data activation here at Foodmaestro with an emphasis enabling Retailers through data applications to help there customers with personalization, health, and wellness.
           </p>
-          <Button as="a" href={'/RF.Resume.pdf'}>
+          <Button as="a" href={'https://rfpublicfiles.blob.core.windows.net/public/RF.RESUME.pdf'}>
             Resume
           </Button>
           <Button as={AnchorLink} href="#contact">
